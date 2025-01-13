@@ -35,7 +35,7 @@ This project contains the following components:
 
 
 ```
-   git clone https://github.com/your-repo/project-name.git
+   git clone https://github.com/cherry1113/DermaMNIST_Classification.git
 
    cd project-name
    ```
