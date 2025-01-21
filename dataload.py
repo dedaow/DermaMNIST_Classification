@@ -4,8 +4,8 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 import torchvision.transforms as transforms
 from torchvision.transforms import functional as F
-
-data_path='data/dermamnist_64.npz'
+data_path='/kaggle/input/dermamnist/dermamnist_64.npz'
+#data_path='data/dermamnist_64.npz'
 
 class DermaMNISTDataset(Dataset):
     def __init__(self, images, labels, transform=None):
